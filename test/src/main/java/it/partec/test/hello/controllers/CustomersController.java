@@ -24,7 +24,9 @@ public class CustomersController {
      */
     @RequestMapping("/customers")
     List<Customer> list(){
+        new Exception("test");
         return repository.findAll();
+
     }
 
     /**
