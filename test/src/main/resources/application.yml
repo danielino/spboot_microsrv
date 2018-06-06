@@ -1,7 +1,13 @@
+server.port: 9000
+---
+
+spring.profiles: default
+spring.data.mongodb.uri: mongodb://54.38.192.84:27017/customers
+---
 
 spring.profiles: development
-spring.data.mongodb.uri: mongodb://127.0.0.1:27017/customers
+spring.data.mongodb.uri: mongodb://54.38.192.84:27017/customers
 ---
 
 spring.profiles: docker
-spring.data.mongodb.uri: mongodb://mongodb:27017/customers
+spring.data.mongodb.uri: mongodb://54.38.192.84:27017/customers
